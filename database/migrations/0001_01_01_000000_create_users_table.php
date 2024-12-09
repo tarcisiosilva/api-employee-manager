@@ -17,6 +17,17 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('cpf')->unique();
+            $table->string('cep');
+            $table->string('address');
+            $table->string('complements');
+            $table->string('city');
+            $table->string('state');
+            $table->string('country');
+            $table->string('phone');
+            $table->string('dob');
+            $table->integer('position'); // 1 - adm  |  2 - supervisor  | 3 employee
+            $table->integer('supervisor_id');
             $table->rememberToken();
             $table->timestamps();
         });
