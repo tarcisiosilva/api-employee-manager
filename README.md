@@ -63,8 +63,8 @@ Composer
 MySQL (última versão)
 
 
-git clone https://github.com/seu-usuario/api-employee-manager.git
-cd api-employee-manager
+git clone https://github.com/tarcisiosilva/api-ponto-eletronico.git
+cd api-ponto-eletronico
 
 composer install
 
@@ -147,6 +147,13 @@ Delete  User: DELETE /api/users/{id} (Autenticado)
 
 
 Authorization: Bearer <seu_token>
+
+
+📞 Suporte
+
+Autor: Tarcisio Silva
+E-mail: tarcisio@saconsulting.com.br
+LinkedIn: [Tarcisio Silva](https://www.linkedin.com/in/taarcisiosilva/)
 
 
 
