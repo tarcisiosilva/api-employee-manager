@@ -68,9 +68,28 @@ cd api-employee-manager
 
 composer install
 
+Criação .env
+
+********
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE= Seu banco
+DB_USERNAME= username
+DB_PASSWORD= Pass
+JWT_SECRET=Sc3so86jq7jWNoRerHeOIVK2cqxE81f5OJEGOyITXZaNFF6WnC8cqBi1KqcOIEaI
+APP_DEBUG=true
+APP_KEY=base64:k5chPY3+AhlCPWzgYb09iSFpJ3xuEO9RAvEYxb0Xtq8=
+
+
+*********
+
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+
+
 
 
 ** Login: POST /api/login **
@@ -128,5 +147,8 @@ Delete  User: DELETE /api/users/{id} (Autenticado)
 
 
 Authorization: Bearer <seu_token>
+
+
+
 
 
