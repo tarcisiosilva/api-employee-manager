@@ -149,6 +149,13 @@ Delete  User: DELETE /api/users/{id} (Autenticado)
 Authorization: Bearer <seu_token>
 
 
+📞 Suporte
+
+Autor: Tarcisio Silva
+E-mail: tarcisio@saconsulting.com.br
+LinkedIn: [Tarcisio Silva](https://www.linkedin.com/in/taarcisiosilva/)
+
+
 
 
 
