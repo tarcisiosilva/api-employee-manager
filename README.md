@@ -63,8 +63,8 @@ Composer
 MySQL (última versão)
 
 
-git clone https://github.com/seu-usuario/api-employee-manager.git
-cd api-employee-manager
+git clone https://github.com/tarcisiosilva/api-ponto-eletronico.git
+cd api-ponto-eletronico
 
 composer install
 
